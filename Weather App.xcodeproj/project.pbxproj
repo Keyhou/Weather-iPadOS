@@ -7,18 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF147060276A66A900C4EDF0 /* HourlyForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF14705F276A66A900C4EDF0 /* HourlyForecast.swift */; };
+		EF64065A27673D8700E457FB /* sun@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF64065427673D8700E457FB /* sun@2x.png */; };
+		EF64065B27673D8700E457FB /* sun@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF64065527673D8700E457FB /* sun@3x.png */; };
+		EF64065C27673D8700E457FB /* snow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF64065627673D8700E457FB /* snow@2x.png */; };
+		EF64065D27673D8700E457FB /* snow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF64065727673D8700E457FB /* snow@3x.png */; };
+		EF64065E27673D8700E457FB /* thunder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF64065827673D8700E457FB /* thunder@2x.png */; };
+		EF64065F27673D8700E457FB /* thunder@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF64065927673D8700E457FB /* thunder@3x.png */; };
+		EF64066127674FA300E457FB /* CloudAnimation.scn in Resources */ = {isa = PBXBuildFile; fileRef = EF64066027674FA300E457FB /* CloudAnimation.scn */; };
+		EF640663276751F200E457FB /* SpriteCloud.sks in Resources */ = {isa = PBXBuildFile; fileRef = EF640662276751F200E457FB /* SpriteCloud.sks */; };
+		EF64066927675F6800E457FB /* RainFallLanding.sks in Resources */ = {isa = PBXBuildFile; fileRef = EF64066827675F6800E457FB /* RainFallLanding.sks */; };
+		EFA2E1F52769E63100AED200 /* AppIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA2E1F42769E63000AED200 /* AppIconView.swift */; };
 		EFCBFF47275E7BC900417A81 /* Weather_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCBFF46275E7BC900417A81 /* Weather_AppApp.swift */; };
 		EFCBFF49275E7BC900417A81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCBFF48275E7BC900417A81 /* ContentView.swift */; };
 		EFCBFF4B275E7BCA00417A81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFCBFF4A275E7BCA00417A81 /* Assets.xcassets */; };
 		EFCBFF4E275E7BCA00417A81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFCBFF4D275E7BCA00417A81 /* Preview Assets.xcassets */; };
+		EFCBFF56275E840A00417A81 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCBFF55275E840A00417A81 /* HomeView.swift */; };
+		EFCBFF5A275E84A500417A81 /* RainFall.sks in Resources */ = {isa = PBXBuildFile; fileRef = EFCBFF58275E84A500417A81 /* RainFall.sks */; };
+		EFCBFF5E2762030800417A81 /* SnowFall.sks in Resources */ = {isa = PBXBuildFile; fileRef = EFCBFF5C2762030800417A81 /* SnowFall.sks */; };
+		EFCBFF5F2762030800417A81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFCBFF5D2762030800417A81 /* Assets.xcassets */; };
+		EFCF4A142768AB8A00582BEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCF4A132768AB8A00582BEB /* SceneDelegate.swift */; };
+		EFEFA962276623AE0056548E /* CustomStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEFA961276623AE0056548E /* CustomStackView.swift */; };
+		EFEFA964276623CA0056548E /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEFA963276623CA0056548E /* CustomCorner.swift */; };
+		EFEFA966276623E90056548E /* WeatherDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEFA965276623E90056548E /* WeatherDataView.swift */; };
+		EFEFA9692766249C0056548E /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEFA9682766249C0056548E /* Forecast.swift */; };
+		EFEFA96B276625D10056548E /* SnowFallLanding.sks in Resources */ = {isa = PBXBuildFile; fileRef = EFEFA96A276625D10056548E /* SnowFallLanding.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF14705F276A66A900C4EDF0 /* HourlyForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyForecast.swift; sourceTree = "<group>"; };
+		EF3DFAC8276372B20049DEFA /* Weather-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Weather-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EF64065427673D8700E457FB /* sun@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sun@2x.png"; path = "../../../sun@2x.png"; sourceTree = "<group>"; };
+		EF64065527673D8700E457FB /* sun@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sun@3x.png"; path = "../../../sun@3x.png"; sourceTree = "<group>"; };
+		EF64065627673D8700E457FB /* snow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "snow@2x.png"; path = "../../../snow@2x.png"; sourceTree = "<group>"; };
+		EF64065727673D8700E457FB /* snow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "snow@3x.png"; path = "../../../snow@3x.png"; sourceTree = "<group>"; };
+		EF64065827673D8700E457FB /* thunder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thunder@2x.png"; path = "../../../thunder@2x.png"; sourceTree = "<group>"; };
+		EF64065927673D8700E457FB /* thunder@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thunder@3x.png"; path = "../../../thunder@3x.png"; sourceTree = "<group>"; };
+		EF64066027674FA300E457FB /* CloudAnimation.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = CloudAnimation.scn; sourceTree = "<group>"; };
+		EF640662276751F200E457FB /* SpriteCloud.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SpriteCloud.sks; sourceTree = "<group>"; };
+		EF64066827675F6800E457FB /* RainFallLanding.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RainFallLanding.sks; sourceTree = "<group>"; };
+		EFA2E1F42769E63000AED200 /* AppIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconView.swift; sourceTree = "<group>"; };
 		EFCBFF43275E7BC900417A81 /* Weather App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFCBFF46275E7BC900417A81 /* Weather_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_AppApp.swift; sourceTree = "<group>"; };
 		EFCBFF48275E7BC900417A81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EFCBFF4A275E7BCA00417A81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFCBFF4D275E7BCA00417A81 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFCBFF55275E840A00417A81 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EFCBFF58275E84A500417A81 /* RainFall.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RainFall.sks; sourceTree = "<group>"; };
+		EFCBFF5C2762030800417A81 /* SnowFall.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SnowFall.sks; sourceTree = "<group>"; };
+		EFCBFF5D2762030800417A81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFCF4A132768AB8A00582BEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EFEFA961276623AE0056548E /* CustomStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStackView.swift; sourceTree = "<group>"; };
+		EFEFA963276623CA0056548E /* CustomCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
+		EFEFA965276623E90056548E /* WeatherDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataView.swift; sourceTree = "<group>"; };
+		EFEFA9682766249C0056548E /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		EFEFA96A276625D10056548E /* SnowFallLanding.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SnowFallLanding.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +75,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF3DFAC12763708E0049DEFA /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				EF64065627673D8700E457FB /* snow@2x.png */,
+				EF64065727673D8700E457FB /* snow@3x.png */,
+				EF64065427673D8700E457FB /* sun@2x.png */,
+				EF64065527673D8700E457FB /* sun@3x.png */,
+				EF64065827673D8700E457FB /* thunder@2x.png */,
+				EF64065927673D8700E457FB /* thunder@3x.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
 		EFCBFF3A275E7BC900417A81 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +107,11 @@
 		EFCBFF45275E7BC900417A81 /* Weather App */ = {
 			isa = PBXGroup;
 			children = (
+				EF3DFAC8276372B20049DEFA /* Weather-App-Info.plist */,
+				EF3DFAC12763708E0049DEFA /* Icons */,
+				EFCBFF57275E847500417A81 /* SpriteFiles */,
+				EFEFA967276624810056548E /* Model */,
+				EFCBFF54275E83F200417A81 /* View */,
 				EFCBFF46275E7BC900417A81 /* Weather_AppApp.swift */,
 				EFCBFF48275E7BC900417A81 /* ContentView.swift */,
 				EFCBFF4A275E7BCA00417A81 /* Assets.xcassets */,
@@ -65,6 +126,42 @@
 				EFCBFF4D275E7BCA00417A81 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFCBFF54275E83F200417A81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EFCBFF55275E840A00417A81 /* HomeView.swift */,
+				EFCF4A132768AB8A00582BEB /* SceneDelegate.swift */,
+				EFEFA961276623AE0056548E /* CustomStackView.swift */,
+				EFEFA963276623CA0056548E /* CustomCorner.swift */,
+				EFEFA965276623E90056548E /* WeatherDataView.swift */,
+				EFA2E1F42769E63000AED200 /* AppIconView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EFCBFF57275E847500417A81 /* SpriteFiles */ = {
+			isa = PBXGroup;
+			children = (
+				EFCBFF58275E84A500417A81 /* RainFall.sks */,
+				EF64066827675F6800E457FB /* RainFallLanding.sks */,
+				EFCBFF5C2762030800417A81 /* SnowFall.sks */,
+				EFEFA96A276625D10056548E /* SnowFallLanding.sks */,
+				EFCBFF5D2762030800417A81 /* Assets.xcassets */,
+				EF64066027674FA300E457FB /* CloudAnimation.scn */,
+				EF640662276751F200E457FB /* SpriteCloud.sks */,
+			);
+			path = SpriteFiles;
+			sourceTree = "<group>";
+		};
+		EFEFA967276624810056548E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF14705F276A66A900C4EDF0 /* HourlyForecast.swift */,
+				EFEFA9682766249C0056548E /* Forecast.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +222,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF64065C27673D8700E457FB /* snow@2x.png in Resources */,
+				EF64066127674FA300E457FB /* CloudAnimation.scn in Resources */,
+				EF640663276751F200E457FB /* SpriteCloud.sks in Resources */,
 				EFCBFF4E275E7BCA00417A81 /* Preview Assets.xcassets in Resources */,
+				EF64065F27673D8700E457FB /* thunder@3x.png in Resources */,
+				EF64065A27673D8700E457FB /* sun@2x.png in Resources */,
+				EFCBFF5E2762030800417A81 /* SnowFall.sks in Resources */,
+				EF64065D27673D8700E457FB /* snow@3x.png in Resources */,
+				EF64065E27673D8700E457FB /* thunder@2x.png in Resources */,
+				EFEFA96B276625D10056548E /* SnowFallLanding.sks in Resources */,
 				EFCBFF4B275E7BCA00417A81 /* Assets.xcassets in Resources */,
+				EF64066927675F6800E457FB /* RainFallLanding.sks in Resources */,
+				EFCBFF5A275E84A500417A81 /* RainFall.sks in Resources */,
+				EF64065B27673D8700E457FB /* sun@3x.png in Resources */,
+				EFCBFF5F2762030800417A81 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +247,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFEFA962276623AE0056548E /* CustomStackView.swift in Sources */,
+				EFEFA966276623E90056548E /* WeatherDataView.swift in Sources */,
+				EFEFA9692766249C0056548E /* Forecast.swift in Sources */,
+				EFEFA964276623CA0056548E /* CustomCorner.swift in Sources */,
 				EFCBFF49275E7BC900417A81 /* ContentView.swift in Sources */,
+				EFCBFF56275E840A00417A81 /* HomeView.swift in Sources */,
 				EFCBFF47275E7BC900417A81 /* Weather_AppApp.swift in Sources */,
+				EF147060276A66A900C4EDF0 /* HourlyForecast.swift in Sources */,
+				EFCF4A142768AB8A00582BEB /* SceneDelegate.swift in Sources */,
+				EFA2E1F52769E63100AED200 /* AppIconView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,12 +384,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Weather App/Preview Content\"";
 				DEVELOPMENT_TEAM = TBRLBN5H2K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Weather-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -295,12 +415,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Weather App/Preview Content\"";
 				DEVELOPMENT_TEAM = TBRLBN5H2K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Weather-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
