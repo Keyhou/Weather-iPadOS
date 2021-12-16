@@ -12,7 +12,7 @@ struct CustomStackView < Title: View, Content: View > : View {
     var contentView: Content
     
     
-    // Offsets...
+
     @State var topOffset: CGFloat = 0
     @State var bottomOffset: CGFloat = 0
     

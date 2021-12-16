@@ -265,14 +265,14 @@ struct WeatherDataView: View {
             
             // Manual Icon changing... who cares
             
-            Button("Manual App Icon 🤦") {
-                        showingSheet.toggle()
-                    }
-                    .sheet(isPresented: $showingSheet) {
-                        AppIconView()
-                    }
-                    .foregroundColor(.white)
-            
+//            Button("Manual App Icon 🤦") {
+//                        showingSheet.toggle()
+//                    }
+//                    .sheet(isPresented: $showingSheet) {
+//                        AppIconView()
+//                    }
+//                    .foregroundColor(.white)
+//
 
 
         }

@@ -26,6 +26,8 @@ struct AppIconView: View {
         }
     }
     
+//    This is a fail
+    
     var body: some View {
         
         NavigationView {

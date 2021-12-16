@@ -7,24 +7,18 @@
 
 import SwiftUI
 
+// Not even intagrating the real datas from AccuWeather in this project since it's not finished in time
+
 struct ContentView: View {
     
     var body: some View {
-   
-        // Since WIndow is Decrepted in iOS 15....
-        // Getting Safe area using Geometry Reader...
-        
-        GeometryReader { proxy in
 
+        GeometryReader { proxy in
             let topEdge = proxy.safeAreaInsets.top
 
             Home(topEdge: topEdge)
                 .ignoresSafeArea(.all, edges: .top)
         }
-        
-
-        
-
     }
 }
 

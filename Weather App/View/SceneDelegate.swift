@@ -8,6 +8,8 @@
 import UIKit
 import SwiftUI
 
+// Trying to get alternative icon with each weather
+
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     var window: UIWindow?
