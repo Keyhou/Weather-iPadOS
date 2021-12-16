@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundleAlernateIcons</key>
+		<dict>
+			<key>snow</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>snow</string>
+				</array>
+			</dict>
+			<key>sun</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>sun</string>
+				</array>
+			</dict>
+			<key>thunder</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>thunder</string>
+				</array>
+			</dict>
+		</dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>icon</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string></string>
+			<key>UIPrerenderedIcon</key>
+			<false/>
+		</dict>
+	</dict>
+</dict>
+</plist>
